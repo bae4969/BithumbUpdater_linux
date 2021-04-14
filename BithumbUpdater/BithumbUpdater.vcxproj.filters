@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{fc3101cf-33db-4dfa-9102-f56d0a8bdf14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{9549ada6-613d-4951-9b5c-f878272d1476}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\api.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\converter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\sql.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sql_info.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\api.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\api_info.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\header.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\converter.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Makefile" />
+    <None Include="..\.gitignore" />
+  </ItemGroup>
+</Project>
